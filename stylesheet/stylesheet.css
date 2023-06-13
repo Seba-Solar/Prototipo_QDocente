@@ -1,3 +1,6 @@
+@font-face {
+  font-family: 'Bungee';
+  src: url('fonts/Bungee-Regular.ttf') format('ttf')}
 .areas {
     flex: 1 0 33.33%;
     height: 33.33%;
@@ -7,7 +10,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  } 
+  }
+.carreras{
+    flex: 1 0 33.33%;
+    height: 20%;
+    background-color: #ccc;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-scroll-profes{
+    flex: 1 0 33.33%;
+    height: 33.33%;
+    background-color: #ccc;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icono-profe{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+.boton-gmail{
+  width: 20px;
+  margin-left: 40%;
+}
+.profesor-info{
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  font-family: 'Bungee', sans-serif;
+}
 html, body {
     height: 100%;
     margin: 0;
